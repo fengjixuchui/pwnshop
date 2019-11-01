@@ -1,7 +1,9 @@
 # pwnshop
 > Reverse Engineering and Exploitation.
 
-Check out my [blog](http://medium.syscall59.com) and follow me on [Twitter](https://twitter.com/syscall59).
+Check out my [blog](http://medium.syscall59.com), follow me on [Twitter](https://twitter.com/syscall59) and [Youtube](https://www.youtube.com/channel/UC2lZwxYDEAgQod3D4JqxLfg)!  
+### Support the project :  
+<a href="https://www.buymeacoffee.com/syscall59" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Contents:
 - Reverse engineering a simple crackme called “Just see”: [writeup](https://medium.com/@0x0FFB347/crackme-just-see-c6dda1edb9fb)
@@ -19,7 +21,7 @@ Check out my [blog](http://medium.syscall59.com) and follow me on [Twitter](http
 - Execve shellcode (stack method) : [code](https://github.com/alanvivona/pwnshop/blob/master/src/0x0A-execve-stack/execvestack.nasm)  
 - Execve shellcode using RIP relative addressing [code](https://github.com/alanvivona/pwnshop/blob/master/src/0x0B-execve-rip-relative-addressing/execve-rip-relative.nasm)  
 - Password Protected Bind Shell (Linux/x64) [code](https://github.com/alanvivona/pwnshop/blob/master/src/0x0D-SLAE64-1-tcp-bind-shell-auth/tcp-bind-shell-auth-smaller.nasm), [writeup](https://medium.com/bugbountywriteup/writing-a-password-protected-bind-shell-linux-x64-e052d2f65ff2)  
-- Password Protected Reverse Shell (Linux/x64) [code](https://github.com/alanvivona/pwnshop/blob/master/src/0x0E-SLAE64-2-reverse-tcp-auth/reverse-tcp-with-auth.nasm), [writeup](https://medium.com/@0x0FFB347/writing-a-password-protected-reverse-shell-linux-x64-5f4d3a28d91a)  
+- Password Protected Reverse Shell (Linux/x64) [code](https://github.com/alanvivona/pwnshop/blob/master/src/0x0E-SLAE64-2-reverse-tcp-auth/reverse-tcp-with-auth.nasm), [writeup](https://medium.com/@0x0FFB347/writing-a-password-protected-reverse-shell-linux-x64-5f4d3a28d91a), [Featured in the 1st number of Paged-Out](https://pagedout.institute/download/PagedOut_001_beta1.pdf)  
 - XANAX - A custom shellcode encoder written in assembly :  
     - [encoder code](https://github.com/alanvivona/pwnshop/blob/master/src/0x10-SLAE64-4-custom-encoder/xanax-encoder.nasm)  
     - [encoder on exploit-db](https://www.exploit-db.com/shellcodes/46679)  
@@ -50,11 +52,11 @@ Check out my [blog](http://medium.syscall59.com) and follow me on [Twitter](http
 ## Useful links:
 
 ### Tools:
-A non-exhaustive list of tools I like to use
-- [radare2](https://rada.re) (+[Cutter](https://github.com/radareorg/cutter) +[r2frida](https://github.com/nowsecure/r2frida) +[r2pipe](https://github.com/radare/radare2-r2pipe))
+A non-exhaustive list of tools  
+- [radare2](https://rada.re) (+[Cutter](https://github.com/radareorg/cutter) +[r2frida](https://github.com/nowsecure/r2frida) +[r2pipe](https://github.com/radare/radare2-r2pipe) +[r2ghidra-dec](https://github.com/radareorg/r2ghidra-dec))
 - [Ghidra](https://ghidra-sre.org/)
 - [x64dbg](https://x64dbg.com)
-- [frida](https://www.frida.re/)
+- [Frida](https://www.frida.re/)
 - [gdb](https://www.gnu.org/software/gdb/) (+[gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) +[GEF](https://github.com/hugsy/gef))
 - [Valgrind](http://www.valgrind.org/)
 - [Pwntools](http://pwntools.com)
@@ -68,27 +70,35 @@ A non-exhaustive list of tools I like to use
 - nasm
 - gas
 - [Unicorn Engine](https://www.unicorn-engine.org/)
+- [IDA](https://www.hex-rays.com/products/ida/index.shtml)  
+- hexedit  
+- bless  
+- Metasploit (https://www.metasploit.com/)  
 
 
 
 ### Resources:
-There's a **LOT** of stuff out there. These are just the most useful things I've found so far. I only list stuff that I have already seen/read/used.  
-- [Live overflow](https://liveoverflow.com/)
-- [The shellcoder's handbook](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X)
-- [Exploit education](https://exploit.education/)
-- [Gynvael coldwind](https://gynvael.coldwind.pl/)
-- [Azeria labs](https://azeria-labs.com/)
-- [Phrack](http://phrack.org/)
-- [Corelan](https://www.corelan.be/index.php/articles/)
-- [Fuzzysecurity](https://www.fuzzysecurity.com/index.html)
-- [Packetstormsecurity](https://packetstormsecurity.com/)
-- [Exploitdb](https://www.exploit-db.com/)
-- [Beginners RE](https://beginners.re/)
-- [Practical reverse engineering](https://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315)
-- [Programming linux anti-reversing techniques](https://leanpub.com/anti-reverse-engineering-linux)
-- [Radare2](https://radare.org/)
-- [Attacking network protocols](https://nostarch.com/networkprotocols)
-- [Pentester academy](https://www.pentesteracademy.com/)
-- [Penetration testing: A Hands-On introduction to hacking](https://www.amazon.com/Penetration-Testing-Hands-Introduction-Hacking/dp/1593275641)
-- [Malware Unicorn](https://malwareunicorn.org/#/workshops)  
-- [Radare2 Book](https://radare.gitbooks.io/radare2book/)  
+There's a **LOT** of stuff out there. These are just the most useful things I've found so far.    
+- :computer: [Live overflow](https://liveoverflow.com/)
+- :book: [The shellcoder's handbook](https://amzn.to/2LXi0KH)
+- :computer: [Exploit education](https://exploit.education/)
+- :computer: [Gynvael coldwind](https://gynvael.coldwind.pl/)
+- :computer: [Azeria labs](https://azeria-labs.com/)
+- :computer: [Phrack](http://phrack.org/)
+- :computer: [Corelan](https://www.corelan.be/index.php/articles/)
+- :computer: [Fuzzysecurity](https://www.fuzzysecurity.com/index.html)
+- :computer: [Packetstormsecurity](https://packetstormsecurity.com/)
+- :computer: [Exploitdb](https://www.exploit-db.com/)
+- :book: [Beginners RE](https://beginners.re/)
+- :book: [Practical reverse engineering](https://amzn.to/35lKNQy)
+- :book: [Programming linux anti-reversing techniques](https://leanpub.com/anti-reverse-engineering-linux)
+- :book: [Attacking network protocols](https://amzn.to/35jFO2S)
+- :book: [Penetration testing: A Hands-On introduction to hacking](https://amzn.to/2IzzlHy)
+- :computer: [Malware Unicorn](https://malwareunicorn.org/#/workshops)  
+- :book: [Radare2 Book](https://radare.gitbooks.io/radare2book/)  
+- :computer: [Paged-Out!](https://pagedout.institute)  
+- :book: [PoC||GTFO I](https://amzn.to/2MDgz3l)  
+- :book: [PoC||GTFO II](https://amzn.to/2AS4uBP)  
+- :book: [The IDA Pro Book](https://amzn.to/2LXnKUE)  
+- :book: [Hacker Disassembling Uncovered](https://amzn.to/2nLew4I)  
+- :computer: [Reverse Engineering Stackexchange](https://reverseengineering.stackexchange.com/)  
